@@ -211,9 +211,19 @@ From real-time barcode scanning to on-demand label printing, our products help b
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">What products do you need? (e.g., handheld PDA, RFID, printers) + quantity + use case</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            <textarea
+                                class="form-control"
+                                id="message"
+                                placeholder="What products do you need?"
+                                rows="5"
+                                data-sb-validations="required"
+                            ></textarea>
+                            <label for="message">
+                                What products do you need? (e.g., handheld PDA, RFID, printers) + quantity + use case
+                            </label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">
+                                A message is required.
+                            </div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
